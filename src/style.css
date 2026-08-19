@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,600;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&display=swap');
 
 :root {
-  --bg: #0a0a0b;
-  --fg: #f4f3ee;
-  --muted: #8c8c88;
-  --accent: #c6ff3a;
-  --accent-dim: #7fae1f;
-  --border: rgba(244, 243, 238, 0.12);
+  --bg: #0a0908;
+  --fg: #f1ebdd;
+  --muted: #9c9184;
+  --gold: #cbaa66;
+  --gold-soft: rgba(203, 170, 102, 0.16);
+  --border: rgba(241, 235, 221, 0.14);
 }
 
 * {
@@ -24,7 +24,7 @@ body {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 #app {
@@ -43,8 +43,8 @@ body {
   --x: 50%;
   --y: 40%;
   background: radial-gradient(
-    600px circle at var(--x) var(--y),
-    rgba(198, 255, 58, 0.1),
+    640px circle at var(--x) var(--y),
+    rgba(203, 170, 102, 0.09),
     transparent 60%
   );
   transition: background 120ms ease-out;
@@ -56,11 +56,11 @@ body {
   position: absolute;
   inset: 0;
   background: radial-gradient(
-      1000px 500px at 15% -10%,
-      rgba(198, 255, 58, 0.08),
+      1000px 560px at 18% -8%,
+      rgba(203, 170, 102, 0.08),
       transparent 60%
     ),
-    radial-gradient(800px 500px at 100% 110%, rgba(198, 255, 58, 0.06), transparent 55%);
+    radial-gradient(800px 520px at 100% 112%, rgba(203, 170, 102, 0.06), transparent 55%);
 }
 
 /* film grain overlay */
@@ -69,28 +69,22 @@ body {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  opacity: 0.05;
+  opacity: 0.045;
   mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 .corner {
   position: fixed;
-  top: 28px;
+  top: 32px;
+  left: 32px;
   z-index: 2;
-  font-size: 0.7rem;
-  letter-spacing: 0.18em;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--muted);
-  font-weight: 600;
-}
-
-.corner--tl {
-  left: 28px;
-}
-
-.corner--tr {
-  right: 28px;
 }
 
 .stage {
@@ -101,63 +95,59 @@ body {
   justify-content: center;
   text-align: center;
   padding: 120px 24px 80px;
-  gap: 28px;
+  gap: 30px;
 }
 
 .kicker {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.22em;
+  gap: 16px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.32em;
   text-transform: uppercase;
   color: var(--muted);
 }
 
-.dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 12px 2px rgba(198, 255, 58, 0.7);
-  animation: pulse 2.2s ease-in-out infinite;
+.rule {
+  width: 34px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold));
 }
 
-@keyframes pulse {
-  0%,
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.5;
-    transform: scale(0.8);
-  }
+.kicker .rule:last-child {
+  background: linear-gradient(90deg, var(--gold), transparent);
 }
 
 .wordmark {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: clamp(2.2rem, 6vw, 4rem);
-  letter-spacing: 0.02em;
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  letter-spacing: 0.42em;
   margin: 0;
+  padding-left: 0.42em;
   color: var(--fg);
   text-transform: uppercase;
 }
 
 .wordmark .accent {
-  color: var(--accent);
+  color: var(--gold);
+  font-weight: 500;
+}
+
+.ornament {
+  color: var(--gold);
+  font-size: 0.85rem;
+  opacity: 0.85;
 }
 
 .headline {
   margin: 0;
-  line-height: 0.86;
-  font-family: 'Anton', sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: clamp(4.5rem, 17vw, 12rem);
-  transform: skewX(-4deg);
+  line-height: 1.02;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(4.5rem, 14vw, 9.5rem);
 }
 
 .headline .line {
@@ -165,44 +155,47 @@ body {
 }
 
 .headline .line--accent {
+  background: linear-gradient(120deg, #e9d6a3 0%, var(--gold) 45%, #8f7233 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
-  -webkit-text-stroke: 2px var(--accent);
 }
 
 .lede {
-  max-width: 520px;
+  max-width: 480px;
   color: var(--muted);
+  font-weight: 300;
   font-size: 1.02rem;
-  line-height: 1.6;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
   margin: 0;
 }
 
 .cta {
-  margin-top: 12px;
+  margin-top: 14px;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 16px 30px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  color: var(--fg);
+  gap: 12px;
+  padding: 17px 36px;
+  border-radius: 2px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
   text-decoration: none;
-  font-weight: 600;
-  font-size: 0.95rem;
-  letter-spacing: 0.01em;
-  transition: border-color 200ms ease, background 200ms ease, color 200ms ease,
-    transform 200ms ease;
+  font-weight: 500;
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  transition: background 220ms ease, color 220ms ease, box-shadow 220ms ease;
 }
 
 .cta-arrow {
-  transition: transform 200ms ease;
+  transition: transform 220ms ease;
 }
 
 .cta:hover {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #0a0a0b;
-  transform: translateY(-2px);
+  background: var(--gold);
+  color: #0a0908;
+  box-shadow: 0 0 30px rgba(203, 170, 102, 0.35);
 }
 
 .cta:hover .cta-arrow {
@@ -215,11 +208,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
   padding: 26px 24px 32px;
   color: var(--muted);
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 
@@ -229,20 +223,23 @@ body {
 
 @media (max-width: 640px) {
   .corner {
-    font-size: 0.62rem;
-    top: 20px;
-  }
-  .corner--tl {
-    left: 20px;
-  }
-  .corner--tr {
-    right: 20px;
+    font-size: 0.72rem;
+    top: 22px;
+    left: 22px;
   }
   .stage {
     padding: 100px 20px 64px;
-    gap: 22px;
+    gap: 24px;
   }
-  .headline {
-    transform: skewX(-2deg);
+  .kicker {
+    gap: 10px;
+    letter-spacing: 0.22em;
+  }
+  .rule {
+    width: 20px;
+  }
+  .wordmark {
+    letter-spacing: 0.3em;
+    padding-left: 0.3em;
   }
 }

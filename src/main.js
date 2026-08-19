@@ -4,13 +4,14 @@ document.querySelector('#app').innerHTML = `
   <div class="noise"></div>
   <div class="glow"></div>
 
-  <div class="corner corner--tl">TF/26</div>
-  <div class="corner corner--tr">PT&nbsp;&nbsp;·&nbsp;&nbsp;EN</div>
+  <div class="corner corner--tl">Tanofeed &mdash; Est. 2026</div>
 
   <main class="stage">
-    <span class="kicker"><span class="dot"></span>Agência de criadores de conteúdo</span>
+    <span class="kicker"><span class="rule"></span>Agência de Criadores de Conteúdo<span class="rule"></span></span>
 
     <h1 class="wordmark">TANO<span class="accent">FEED</span></h1>
+
+    <div class="ornament" aria-hidden="true">&#10022;</div>
 
     <h2 class="headline">
       <span class="line">Em</span>
@@ -18,11 +19,11 @@ document.querySelector('#app').innerHTML = `
     </h2>
 
     <p class="lede">
-      Estamos a preparar algo novo para talentos e marcas em Portugal.
-      Gestão de criadores, produção de conteúdo e parcerias que fazem crescer.
+      Uma curadoria seletiva de talento digital em Portugal.
+      Gestão de criadores, produção de conteúdo e parcerias de excelência.
     </p>
 
-    <a class="cta" href="mailto:ola@tanofeed.com">
+    <a class="cta" href="mailto:rayhan@tanofeed.pt">
       <span>Fala connosco</span>
       <span class="cta-arrow" aria-hidden="true">&rarr;</span>
     </a>
