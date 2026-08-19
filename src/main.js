@@ -23,7 +23,7 @@ document.querySelector('#app').innerHTML = `
       Gestão de criadores, produção de conteúdo e parcerias de excelência.
     </p>
 
-    <a class="cta" href="mailto:rayhan@tanofeed.pt">
+    <a class="cta" href="mailto:rayhan@tanofeed.com">
       <span>Fala connosco</span>
       <span class="cta-arrow" aria-hidden="true">&rarr;</span>
     </a>
