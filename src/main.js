@@ -29,6 +29,22 @@ document.querySelector('#app').innerHTML = `
     </a>
   </main>
 
+  <section class="brands">
+    <span class="brands-label"><span class="rule"></span>Já trabalhámos com<span class="rule"></span></span>
+    <ul class="brands-list">
+      <li>KFC</li>
+      <li>M&amp;M&rsquo;s</li>
+      <li>Garnier</li>
+      <li>Carrefour</li>
+      <li>Extreme</li>
+      <li>Hugo Boss</li>
+      <li>Rimmel London</li>
+      <li>L&rsquo;Or&eacute;al Paris</li>
+      <li>Superdry</li>
+      <li>E mais</li>
+    </ul>
+  </section>
+
   <footer class="footer">
     <span>&copy; ${new Date().getFullYear()} Tanofeed</span>
     <span class="footer-sep">&mdash;</span>

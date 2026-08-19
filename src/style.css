@@ -201,6 +201,55 @@ body {
   transform: translateX(4px);
 }
 
+.brands {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding: 0 24px 64px;
+}
+
+.brands-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.brands-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 28px;
+  max-width: 720px;
+}
+
+.brands-list li {
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg);
+  opacity: 0.72;
+  transition: opacity 200ms ease, color 200ms ease;
+}
+
+.brands-list li:hover {
+  opacity: 1;
+  color: var(--gold);
+}
+
 .footer {
   position: relative;
   z-index: 2;
@@ -240,5 +289,16 @@ body {
   .wordmark {
     letter-spacing: 0.3em;
     padding-left: 0.3em;
+  }
+  .brands {
+    padding: 0 20px 48px;
+    gap: 18px;
+  }
+  .brands-list {
+    column-gap: 18px;
+    row-gap: 12px;
+  }
+  .brands-list li {
+    font-size: 0.72rem;
   }
 }
