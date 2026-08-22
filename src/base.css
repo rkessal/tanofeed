@@ -402,6 +402,12 @@ h4 {
   overflow: hidden;
 }
 
+.ph img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .ph__label {
   display: inline-flex;
   align-items: center;

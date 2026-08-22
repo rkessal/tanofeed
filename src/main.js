@@ -66,7 +66,7 @@ document.querySelector('#app').innerHTML = `
 
     <section class="split wrap">
       <div class="split-row">
-        <div class="ph ph--4-5"><span class="ph__label">Imagem</span></div>
+        <div class="ph ph--4-5"><img src="/para-marcas.webp" alt="Mesa de trabalho com fotografias impressas e um telemóvel, moodboard de uma campanha de influência" loading="lazy" /></div>
         <div class="split-row__body">
           <span class="eyebrow">Para marcas</span>
           <h3>Campanhas de influência com direção estratégica.</h3>
