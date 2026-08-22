@@ -70,23 +70,9 @@ h4 {
 }
 
 /* ambient layers, shared across pages */
+/* light-luxury theme: no cursor glow, flat paper reads cleaner and quieter */
 .glow {
-  position: fixed;
-  inset: 0;
-  z-index: -2;
-  --x: 50%;
-  --y: 30%;
-  background: radial-gradient(640px circle at var(--x) var(--y), oklch(74% 0.1 82 / 0.08), transparent 60%);
-  transition: background 120ms ease-out;
-  pointer-events: none;
-}
-
-.glow::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(1000px 560px at 18% -10%, oklch(74% 0.1 82 / 0.07), transparent 60%),
-    radial-gradient(800px 520px at 100% 110%, oklch(74% 0.1 82 / 0.05), transparent 55%);
+  display: none;
 }
 
 .noise {
@@ -94,8 +80,8 @@ h4 {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  opacity: 0.045;
-  mix-blend-mode: overlay;
+  opacity: 0.02;
+  mix-blend-mode: multiply;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
@@ -125,7 +111,7 @@ h4 {
   justify-content: space-between;
   gap: var(--space-lg);
   padding: var(--space-lg) var(--space-xl);
-  background: oklch(15% 0.01 78 / 0.72);
+  background: oklch(97% 0.006 30 / 0.82);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
   transition: border-color 260ms var(--ease-out), background 260ms var(--ease-out);
@@ -286,7 +272,7 @@ h4 {
 .btn:hover {
   background: var(--color-accent);
   color: var(--color-accent-ink);
-  box-shadow: 0 0 30px oklch(74% 0.1 82 / 0.3);
+  box-shadow: 0 4px 14px oklch(28% 0.15 25 / 0.22);
 }
 
 .btn:focus-visible {
@@ -416,7 +402,8 @@ h4 {
   font-size: var(--text-xs);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background: oklch(15% 0.01 78 / 0.72);
+  background: oklch(15% 0.015 20 / 0.75);
+  color: var(--color-paper);
   padding: var(--space-2xs) var(--space-sm);
   border-radius: var(--radius-sm);
 }
