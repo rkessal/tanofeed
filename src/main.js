@@ -39,8 +39,8 @@ document.querySelector('#app').innerHTML = `
           <div class="svc-card">
             <span>01</span>
             <div>
-              <h3>Gestão de Criadores</h3>
-              <p>Representação e desenvolvimento de carreira para criadores de conteúdo.</p>
+              <h3>Agente Pessoal</h3>
+              <p>Um agente dedicado que acompanha a tua carreira de perto — não um departamento.</p>
             </div>
           </div>
           <div class="svc-card">
@@ -77,8 +77,8 @@ document.querySelector('#app').innerHTML = `
       <div class="split-row split-row--reverse">
         <div class="split-row__body">
           <span class="eyebrow">Para criadores</span>
-          <h3>Representação séria para quem cria a sério.</h3>
-          <p>Negociação, gestão de contratos e oportunidades com marcas que respeitam o teu trabalho — para que te possas focar em criar.</p>
+          <h3>Um agente pessoal. Não uma agência.</h3>
+          <p>Não vais ser um perfil numa lista gerida por várias pessoas. Tens um agente que te acompanha em cada decisão — negociações, contratos, oportunidades — como alguém do teu lado, não um departamento.</p>
           <a class="btn" href="/criadores.html"><span>Candidatar-me</span><span class="cta-arrow">→</span></a>
         </div>
         <div class="ph ph--4-5"><span class="ph__label">Imagem</span></div>

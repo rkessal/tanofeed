@@ -5,8 +5,8 @@ import { renderNav, renderFooter, mountChrome } from './layout.js';
 const SERVICES = [
   {
     num: '01',
-    title: 'Gestão de Criadores',
-    desc: 'Representamos criadores de conteúdo de forma próxima — desenvolvimento de carreira, posicionamento e captação de oportunidades alinhadas com quem são.',
+    title: 'Agente Pessoal',
+    desc: 'Cada criador tem um agente dedicado, não um gestor de conta partilhado — alguém que acompanha a carreira de perto, do posicionamento às oportunidades certas.',
   },
   {
     num: '02',

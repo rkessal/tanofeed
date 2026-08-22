@@ -12,11 +12,24 @@ document.querySelector('#app').innerHTML = `
     <section class="doc-hero wrap">
       <span class="eyebrow">Sobre Nós</span>
       <p class="doc-hero__lede" style="margin-top: var(--space-lg)">
-        Influencer marketing merece uma agência que só faz isso.
+        Para uma marca, somos uma agência. Para um criador, queremos ser outra coisa.
       </p>
     </section>
 
     <article class="doc">
+      <div class="doc__block">
+        <h2>Um agente, não uma agência</h2>
+        <p>
+          A maioria das agências gere criadores como se geresse contas — um número numa lista, distribuído por várias
+          pessoas. Não é assim que trabalhamos. Cada criador tem <strong>um agente pessoal</strong>, alguém que
+          conhece a sua carreira, o seu tom e os seus limites, e que o acompanha em tudo — da primeira parceria à
+          negociação seguinte, do dia da campanha ao dia em que só precisa de um conselho.
+        </p>
+        <p>
+          Não é acompanhamento de campanha em campanha. É alguém do teu lado, sempre.
+        </p>
+      </div>
+
       <div class="doc__block">
         <h2>Porque só fazemos influência</h2>
         <p>
@@ -38,8 +51,9 @@ document.querySelector('#app').innerHTML = `
           melhor ajustadas</strong> a listas longas de perfis que apenas cumprem números.
         </p>
         <p>
-          Do lado dos criadores, isso significa negociação séria, contratos claros e oportunidades que respeitam o
-          trabalho de construir uma audiência — não pedidos de conteúdo grátis em troca de exposição.
+          Do lado dos criadores, isso significa um agente que responde quando precisas dele — não só quando há uma
+          proposta em cima da mesa. Negociação séria, contratos claros e oportunidades que respeitam o trabalho de
+          construir uma audiência, não pedidos de conteúdo grátis em troca de exposição.
         </p>
       </div>
 
@@ -52,7 +66,7 @@ document.querySelector('#app').innerHTML = `
       </div>
 
       <div class="doc__signoff">
-        <p>Quer perceber se somos a agência certa para a sua marca ou para si como criador?</p>
+        <p>Quer perceber se somos a agência certa para a sua marca — ou o agente certo para si como criador?</p>
         <a class="btn" href="/contacto.html"><span>Fala Connosco</span><span class="cta-arrow">→</span></a>
       </div>
     </article>

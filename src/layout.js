@@ -45,8 +45,8 @@ export function renderFooter() {
       <div class="wrap">
         <div class="site-footer__top">
           <div class="site-footer__brand">
-            <h3>Agência de influencer marketing focada em resultados, não em ruído.</h3>
-            <p>Sedeada em Portugal, a Tanofeed liga marcas a criadores de conteúdo através de parcerias geridas ao pormenor.</p>
+            <h3>Agência de influencer marketing. Agente pessoal de cada criador.</h3>
+            <p>Sedeada em Portugal, a Tanofeed liga marcas a criadores de conteúdo — e acompanha cada criador de perto, não como mais um nome numa lista.</p>
           </div>
           <div class="site-footer__col">
             <h4>Navegação</h4>

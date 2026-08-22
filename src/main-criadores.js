@@ -30,7 +30,8 @@ document.querySelector('#app').innerHTML = `
       <h1>As áreas que procuramos representar.</h1>
       <p>
         Estamos a construir a rede de criadores da Tanofeed com cuidado — por isso, em vez de perfis, mostramos as
-        áreas onde já estamos a selecionar talento. Se é criador de conteúdo, veja onde se encaixa e candidate-se.
+        áreas onde já estamos a selecionar talento. Cada criador que entra fica com um agente pessoal, não um número
+        numa lista. Se é criador de conteúdo, veja onde se encaixa e candidate-se.
       </p>
     </section>
 
@@ -54,7 +55,7 @@ document.querySelector('#app').innerHTML = `
     <section class="pg-cta wrap">
       <div>
         <h2>És criador de conteúdo?</h2>
-        <p>Queremos conhecer o teu trabalho — mesmo que a tua área não esteja na lista acima.</p>
+        <p>Queremos conhecer o teu trabalho — mesmo que a tua área não esteja na lista acima. Vais falar com o teu futuro agente, não com um formulário genérico.</p>
       </div>
       <a class="btn btn--solid" href="mailto:rayhan@tanofeed.com?subject=Candidatura%20de%20Criador">
         <span>Candidatar-me</span><span class="cta-arrow">→</span>
