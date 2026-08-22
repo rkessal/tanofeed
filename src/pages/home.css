@@ -1,0 +1,224 @@
+/* Hallmark · macrostructure: Marquee Hero · theme: luxury-minimal · anchor hue: 78 */
+
+.hero {
+  min-height: calc(100svh - 76px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--space-2xl) var(--space-xl) var(--space-3xl);
+  position: relative;
+}
+
+.hero__eyebrow {
+  margin-bottom: var(--space-lg);
+}
+
+.hero h1 {
+  font-size: clamp(2.6rem, 4vw + 1.6rem, 5.5rem);
+  max-width: 16ch;
+  text-wrap: balance;
+  color: var(--color-ink);
+}
+
+.hero__foot {
+  margin-top: var(--space-2xl);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.hero__foot p {
+  max-width: 34ch;
+  color: var(--color-muted);
+  font-weight: 300;
+  font-size: var(--text-md);
+  line-height: 1.6;
+}
+
+.hero__scroll {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-neutral);
+  writing-mode: vertical-rl;
+}
+
+/* intro strip — Long-Document flavoured transition out of the marquee */
+.intro {
+  border-top: 1px solid var(--color-rule);
+  padding-block: var(--space-2xl);
+}
+
+.intro__grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.6fr;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+
+.intro__grid p {
+  font-size: var(--text-lg);
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--color-ink);
+  max-width: 52ch;
+}
+
+.intro__grid strong {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+@media (max-width: 860px) {
+  .intro__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+}
+
+/* services teaser — asymmetric, not 3 equal cards */
+.svc-teaser {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 0.9fr;
+  gap: var(--space-lg);
+}
+
+.svc-card {
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  min-height: 15rem;
+  justify-content: space-between;
+  transition: border-color 220ms var(--ease-out), background 220ms var(--ease-out);
+}
+
+.svc-card:hover {
+  border-color: var(--color-accent);
+  background: var(--color-paper-2);
+}
+
+.svc-card span {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-neutral);
+}
+
+.svc-card h3 {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.svc-card p {
+  color: var(--color-muted);
+  font-weight: 300;
+  font-size: var(--text-sm);
+  line-height: 1.6;
+}
+
+@media (max-width: 860px) {
+  .svc-teaser {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* split studio — para marcas / para criadores */
+.split {
+  display: flex;
+  flex-direction: column;
+}
+
+.split-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2xl);
+  align-items: center;
+  padding-block: var(--space-2xl);
+  border-top: 1px solid var(--color-rule);
+}
+
+.split-row:last-child {
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.split-row--reverse .ph {
+  order: 2;
+}
+
+.split-row__body span.eyebrow {
+  margin-bottom: var(--space-md);
+}
+
+.split-row__body h3 {
+  font-size: var(--text-2xl);
+  max-width: 14ch;
+  margin-bottom: var(--space-md);
+}
+
+.split-row__body p {
+  color: var(--color-muted);
+  font-weight: 300;
+  max-width: 42ch;
+  margin-bottom: var(--space-lg);
+  line-height: 1.65;
+}
+
+@media (max-width: 860px) {
+  .split-row,
+  .split-row--reverse {
+    grid-template-columns: 1fr;
+  }
+  .split-row--reverse .ph {
+    order: 0;
+  }
+}
+
+/* brand strip (compact, links out to /marcas.html) */
+.brand-strip {
+  border-top: 1px solid var(--color-rule);
+  padding-block: var(--space-2xl);
+}
+
+.brand-strip__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+  flex-wrap: wrap;
+}
+
+.brand-strip__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2xl) var(--space-2xl);
+}
+
+.brand-strip__list li {
+  font-size: var(--text-md);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-neutral);
+  transition: color 200ms var(--ease-out);
+}
+
+.brand-strip__list li:hover {
+  color: var(--color-ink);
+}
+
+@media (max-width: 640px) {
+  .hero {
+    min-height: auto;
+    padding-top: var(--space-2xl);
+  }
+  .hero__scroll {
+    display: none;
+  }
+}

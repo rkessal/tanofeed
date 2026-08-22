@@ -1,0 +1,88 @@
+/* Hallmark · macrostructure: Letter (lightweight) · theme: luxury-minimal · anchor hue: 78 */
+
+.ct-hero {
+  padding: var(--space-3xl) var(--space-xl) var(--space-2xl);
+}
+
+.ct-hero h1 {
+  font-size: var(--text-display-s);
+  max-width: 14ch;
+  margin-top: var(--space-md);
+}
+
+.ct-hero p {
+  margin-top: var(--space-lg);
+  max-width: 46ch;
+  color: var(--color-muted);
+  font-weight: 300;
+  font-size: var(--text-md);
+  line-height: 1.65;
+}
+
+.ct-paths {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--color-rule);
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.ct-path {
+  padding: var(--space-2xl) var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  align-items: flex-start;
+}
+
+.ct-path + .ct-path {
+  border-left: 1px solid var(--color-rule);
+}
+
+.ct-path h2 {
+  font-size: var(--text-xl);
+}
+
+.ct-path p {
+  color: var(--color-muted);
+  font-weight: 300;
+  line-height: 1.6;
+  max-width: 34ch;
+}
+
+.ct-direct {
+  padding: var(--space-2xl) var(--space-xl) var(--space-3xl);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.ct-direct a {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-ink);
+  border-bottom: 1px solid var(--color-rule-strong);
+  transition: color 200ms var(--ease-out), border-color 200ms var(--ease-out);
+}
+
+.ct-direct a:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.ct-direct span {
+  color: var(--color-neutral);
+  font-size: var(--text-sm);
+}
+
+@media (max-width: 720px) {
+  .ct-paths {
+    grid-template-columns: 1fr;
+  }
+  .ct-path + .ct-path {
+    border-left: none;
+    border-top: 1px solid var(--color-rule);
+  }
+}

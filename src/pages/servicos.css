@@ -1,0 +1,72 @@
+/* Hallmark · macrostructure: Split Studio · theme: luxury-minimal · anchor hue: 78 */
+
+.svc-hero {
+  padding: var(--space-3xl) var(--space-xl) var(--space-xl);
+}
+
+.svc-hero h1 {
+  font-size: var(--text-display-s);
+  max-width: 18ch;
+  margin-top: var(--space-md);
+}
+
+.svc-hero p {
+  margin-top: var(--space-lg);
+  max-width: 48ch;
+  color: var(--color-muted);
+  font-weight: 300;
+  font-size: var(--text-md);
+  line-height: 1.65;
+}
+
+.svc-row {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: var(--space-2xl);
+  align-items: center;
+  padding-block: var(--space-2xl);
+  border-top: 1px solid var(--color-rule);
+}
+
+.svc-row:last-of-type {
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.svc-row--reverse {
+  grid-template-columns: 1.1fr 0.9fr;
+}
+
+.svc-row--reverse .ph {
+  order: 2;
+}
+
+.svc-row__num {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-accent);
+  display: block;
+  margin-bottom: var(--space-md);
+}
+
+.svc-row__body h2 {
+  font-size: var(--text-xl);
+  max-width: 16ch;
+  margin-bottom: var(--space-md);
+}
+
+.svc-row__body p {
+  color: var(--color-muted);
+  font-weight: 300;
+  max-width: 44ch;
+  line-height: 1.65;
+}
+
+@media (max-width: 860px) {
+  .svc-row,
+  .svc-row--reverse {
+    grid-template-columns: 1fr;
+  }
+  .svc-row--reverse .ph {
+    order: 0;
+  }
+}

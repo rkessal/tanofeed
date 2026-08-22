@@ -23,3 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+
+# Locally-installed AI coding-agent skills (dev tooling, not site content)
+.agents
+.claude/skills
+skills-lock.json
