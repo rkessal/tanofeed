@@ -114,7 +114,7 @@ h4 {
 }
 
 /* ------------------------------------------------------------------ */
-/* Navigation — N3-adjacent: wordmark left, links right, no centering */
+/* Navigation , N3-adjacent: wordmark left, links right, no centering */
 /* ------------------------------------------------------------------ */
 .site-nav {
   position: sticky;
@@ -428,7 +428,7 @@ h4 {
 }
 
 /* ------------------------------------------------------------------ */
-/* Final CTA strip — shared across pages                               */
+/* Final CTA strip , shared across pages                               */
 /* ------------------------------------------------------------------ */
 .cta-strip {
   border-top: 1px solid var(--color-rule);
@@ -453,7 +453,7 @@ h4 {
 }
 
 /* ------------------------------------------------------------------ */
-/* Footer — asymmetric, not index-style                                */
+/* Footer , asymmetric, not index-style                                */
 /* ------------------------------------------------------------------ */
 .site-footer {
   border-top: 1px solid var(--color-rule);

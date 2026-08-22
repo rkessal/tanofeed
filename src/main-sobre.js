@@ -20,9 +20,9 @@ document.querySelector('#app').innerHTML = `
       <div class="doc__block">
         <h2>Um agente, não uma agência</h2>
         <p>
-          A maioria das agências gere criadores como se geresse contas — um número numa lista, distribuído por várias
+          A maioria das agências gere criadores como se geresse contas: um número numa lista, distribuído por várias
           pessoas. Não é assim que trabalhamos. Cada criador tem <strong>um agente pessoal</strong>, alguém que
-          conhece a sua carreira, o seu tom e os seus limites, e que o acompanha em tudo — da primeira parceria à
+          conhece a sua carreira, o seu tom e os seus limites, e que o acompanha em tudo, da primeira parceria à
           negociação seguinte, do dia da campanha ao dia em que só precisa de um conselho.
         </p>
         <p>
@@ -34,7 +34,7 @@ document.querySelector('#app').innerHTML = `
         <h2>Porque só fazemos influência</h2>
         <p>
           Podíamos ter sido mais uma agência de marketing com um departamento de influenciadores. Escolhemos não ser.
-          Achamos que fazer uma coisa bem exige foco total — por isso é só isto que a Tanofeed faz: gerir criadores,
+          Achamos que fazer uma coisa bem exige foco total. Por isso é só isto que a Tanofeed faz: gerir criadores,
           desenhar campanhas de influência e ligar marcas às pessoas certas para as representar.
         </p>
         <p>
@@ -46,12 +46,12 @@ document.querySelector('#app').innerHTML = `
       <div class="doc__block">
         <h2>Como trabalhamos</h2>
         <p>
-          Cada parceria começa por perceber o que a marca precisa de comunicar e que criador — pela audiência, pelo
-          tom, pela credibilidade no tema — consegue fazer isso de forma genuína. Preferimos <strong>menos parcerias,
+          Cada parceria começa por perceber o que a marca precisa de comunicar e que criador, pela audiência, pelo
+          tom, pela credibilidade no tema, consegue fazer isso de forma genuína. Preferimos <strong>menos parcerias,
           melhor ajustadas</strong> a listas longas de perfis que apenas cumprem números.
         </p>
         <p>
-          Do lado dos criadores, isso significa um agente que responde quando precisas dele — não só quando há uma
+          Do lado dos criadores, isso significa um agente que responde quando precisas dele, não só quando há uma
           proposta em cima da mesa. Negociação séria, contratos claros e oportunidades que respeitam o trabalho de
           construir uma audiência, não pedidos de conteúdo grátis em troca de exposição.
         </p>
@@ -66,7 +66,7 @@ document.querySelector('#app').innerHTML = `
       </div>
 
       <div class="doc__signoff">
-        <p>Quer perceber se somos a agência certa para a sua marca — ou o agente certo para si como criador?</p>
+        <p>Quer perceber se somos a agência certa para a sua marca, ou o agente certo para si como criador?</p>
         <a class="btn" href="/contacto.html"><span>Fala Connosco</span><span class="cta-arrow">→</span></a>
       </div>
     </article>

@@ -24,7 +24,7 @@ document.querySelector('#app').innerHTML = `
     <section class="cat-hero wrap">
       <span class="eyebrow">Marcas</span>
       <h1>Marcas com quem já trabalhámos.</h1>
-      <p>Campanhas de influencer marketing para marcas de beleza, moda, grande consumo e retalho — em Portugal e além.</p>
+      <p>Campanhas de influencer marketing para marcas de beleza, moda, grande consumo e retalho, em Portugal e além.</p>
     </section>
 
     <div class="cat-grid wrap">

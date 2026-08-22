@@ -6,7 +6,7 @@ const SERVICES = [
   {
     num: '01',
     title: 'Agente Pessoal',
-    desc: 'Cada criador tem um agente dedicado, não um gestor de conta partilhado — alguém que acompanha a carreira de perto, do posicionamento às oportunidades certas.',
+    desc: 'Cada criador tem um agente dedicado, não um gestor de conta partilhado, alguém que acompanha a carreira de perto, do posicionamento às oportunidades certas.',
   },
   {
     num: '02',
@@ -16,7 +16,7 @@ const SERVICES = [
   {
     num: '03',
     title: 'Matchmaking Marca-Criador',
-    desc: 'Selecionamos os criadores certos para cada campanha com base em audiência, tom e credibilidade — não apenas em número de seguidores.',
+    desc: 'Selecionamos os criadores certos para cada campanha com base em audiência, tom e credibilidade, não apenas em número de seguidores.',
   },
   {
     num: '04',
@@ -26,12 +26,12 @@ const SERVICES = [
   {
     num: '05',
     title: 'Negociação & Contratos',
-    desc: 'Tratamos da parte comercial entre marcas e criadores — condições claras, prazos definidos e sem surpresas para nenhuma das partes.',
+    desc: 'Tratamos da parte comercial entre marcas e criadores: condições claras, prazos definidos e sem surpresas para nenhuma das partes.',
   },
   {
     num: '06',
     title: 'Relatórios & Performance',
-    desc: 'Acompanhamos cada campanha até ao fim, com relatórios que servem para decidir a próxima parceria — não só para arquivar.',
+    desc: 'Acompanhamos cada campanha até ao fim, com relatórios que servem para decidir a próxima parceria, não só para arquivar.',
   },
 ];
 

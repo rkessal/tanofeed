@@ -13,7 +13,7 @@ document.querySelector('#app').innerHTML = `
       <span class="eyebrow hero__eyebrow">Agência de Influencer Marketing</span>
       <h1>Menos ruído.<br />Mais influência.</h1>
       <div class="hero__foot">
-        <p>A Tanofeed liga marcas a criadores de conteúdo em Portugal — com estratégia, não apenas com alcance.</p>
+        <p>A Tanofeed liga marcas a criadores de conteúdo em Portugal, com estratégia, não apenas com alcance.</p>
         <span class="hero__scroll">Scroll ↓</span>
       </div>
     </section>
@@ -22,7 +22,7 @@ document.querySelector('#app').innerHTML = `
       <div class="wrap intro__grid">
         <span class="eyebrow">O que fazemos</span>
         <p>
-          Somos uma agência <strong>exclusivamente</strong> de influencer marketing — não fazemos SEO, não fazemos branding
+          Somos uma agência <strong>exclusivamente</strong> de influencer marketing: não fazemos SEO, não fazemos branding
           corporativo, não fazemos gestão de ads genérica. Gerimos criadores, desenhamos campanhas de influência e ligamos
           marcas às pessoas certas para as representar.
         </p>
@@ -40,7 +40,7 @@ document.querySelector('#app').innerHTML = `
             <span>01</span>
             <div>
               <h3>Agente Pessoal</h3>
-              <p>Um agente dedicado que acompanha a tua carreira de perto — não um departamento.</p>
+              <p>Um agente dedicado que acompanha a tua carreira de perto, não um departamento.</p>
             </div>
           </div>
           <div class="svc-card">
@@ -70,7 +70,7 @@ document.querySelector('#app').innerHTML = `
         <div class="split-row__body">
           <span class="eyebrow">Para marcas</span>
           <h3>Campanhas de influência com direção estratégica.</h3>
-          <p>Da seleção de criadores ao relatório final — cuidamos de cada etapa da parceria para que a campanha sirva os seus objetivos, não apenas o algoritmo.</p>
+          <p>Da seleção de criadores ao relatório final, cuidamos de cada etapa da parceria para que a campanha sirva os seus objetivos, não apenas o algoritmo.</p>
           <a class="btn" href="/contacto.html"><span>Falar sobre uma campanha</span><span class="cta-arrow">→</span></a>
         </div>
       </div>
@@ -78,7 +78,7 @@ document.querySelector('#app').innerHTML = `
         <div class="split-row__body">
           <span class="eyebrow">Para criadores</span>
           <h3>Um agente pessoal. Não uma agência.</h3>
-          <p>Não vais ser um perfil numa lista gerida por várias pessoas. Tens um agente que te acompanha em cada decisão — negociações, contratos, oportunidades — como alguém do teu lado, não um departamento.</p>
+          <p>Não vais ser um perfil numa lista gerida por várias pessoas. Tens um agente que te acompanha em cada decisão: negociações, contratos, oportunidades, como alguém do teu lado, não um departamento.</p>
           <a class="btn" href="/criadores.html"><span>Candidatar-me</span><span class="cta-arrow">→</span></a>
         </div>
         <div class="ph ph--4-5"><span class="ph__label">Imagem</span></div>

@@ -46,7 +46,7 @@
   writing-mode: vertical-rl;
 }
 
-/* intro strip — Long-Document flavoured transition out of the marquee */
+/* intro strip , Long-Document flavoured transition out of the marquee */
 .intro {
   border-top: 1px solid var(--color-rule);
   padding-block: var(--space-2xl);
@@ -79,7 +79,7 @@
   }
 }
 
-/* services teaser — asymmetric, not 3 equal cards */
+/* services teaser , asymmetric, not 3 equal cards */
 .svc-teaser {
   display: grid;
   grid-template-columns: 1.3fr 1fr 0.9fr;
@@ -128,7 +128,7 @@
   }
 }
 
-/* split studio — para marcas / para criadores */
+/* split studio , para marcas / para criadores */
 .split {
   display: flex;
   flex-direction: column;

@@ -1,6 +1,6 @@
 /* Hallmark · tokens · anchor hue: 78 (warm gold) */
 :root {
-  /* color — warm-oat anchor, dark mode */
+  /* color , warm-oat anchor, dark mode */
   --color-paper: oklch(15% 0.01 78);
   --color-paper-2: oklch(19% 0.012 78);
   --color-paper-3: oklch(23% 0.013 78);
@@ -36,7 +36,7 @@
   --text-display-s: clamp(2.4rem, 4vw + 1rem, 3.6rem);
   --text-display: clamp(2.75rem, 5vw + 1rem, 5.25rem);
 
-  /* space — 4pt scale */
+  /* space , 4pt scale */
   --space-3xs: 0.125rem;
   --space-2xs: 0.25rem;
   --space-xs: 0.5rem;
