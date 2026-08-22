@@ -1,17 +1,17 @@
-/* Hallmark · tokens · anchor hue: 25 (oxblood on ivory) */
+/* Hallmark · tokens · anchor hue: 155 (deep racing green on ivory) */
 :root {
-  /* color , warm ivory paper, near black ink, dark red accent, light mode */
-  --color-paper: oklch(97% 0.006 30);
-  --color-paper-2: oklch(94% 0.008 30);
-  --color-paper-3: oklch(90% 0.01 30);
-  --color-rule: oklch(80% 0.012 30 / 0.6);
-  --color-rule-strong: oklch(68% 0.02 30);
-  --color-neutral: oklch(55% 0.015 30);
-  --color-muted: oklch(38% 0.02 20);
-  --color-ink: oklch(15% 0.015 20);
-  --color-accent: oklch(28% 0.15 25);
-  --color-accent-ink: oklch(98% 0.006 30);
-  --color-focus: oklch(38% 0.17 25);
+  /* color , warm ivory paper, near black ink, dark bottle green accent, light mode */
+  --color-paper: oklch(97% 0.005 150);
+  --color-paper-2: oklch(94% 0.007 150);
+  --color-paper-3: oklch(90% 0.008 150);
+  --color-rule: oklch(80% 0.01 150 / 0.6);
+  --color-rule-strong: oklch(66% 0.014 150);
+  --color-neutral: oklch(53% 0.012 150);
+  --color-muted: oklch(37% 0.014 150);
+  --color-ink: oklch(15% 0.01 150);
+  --color-accent: oklch(26% 0.075 155);
+  --color-accent-ink: oklch(98% 0.005 150);
+  --color-focus: oklch(37% 0.1 155);
 
   /* legacy aliases still used across pages */
   --bg: var(--color-paper);
