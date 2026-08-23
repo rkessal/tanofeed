@@ -18,7 +18,7 @@ document.querySelector('#app').innerHTML = `
   <div class="noise"></div>
   <div class="glow"></div>
 
-  ${renderNav('/marcas.html')}
+  ${renderNav('/marcas')}
 
   <main class="main">
     <section class="cat-hero wrap">
@@ -40,7 +40,7 @@ document.querySelector('#app').innerHTML = `
 
     <section class="cta-strip wrap">
       <h2>A sua marca podia estar nesta lista.</h2>
-      <a class="btn btn--solid" href="/contacto.html"><span>Falar sobre uma campanha</span><span class="cta-arrow">→</span></a>
+      <a class="btn btn--solid" href="/contacto"><span>Falar sobre uma campanha</span><span class="cta-arrow">→</span></a>
     </section>
   </main>
 

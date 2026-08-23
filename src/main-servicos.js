@@ -39,7 +39,7 @@ document.querySelector('#app').innerHTML = `
   <div class="noise"></div>
   <div class="glow"></div>
 
-  ${renderNav('/servicos.html')}
+  ${renderNav('/servicos')}
 
   <main class="main">
     <section class="svc-hero wrap">
@@ -65,7 +65,7 @@ document.querySelector('#app').innerHTML = `
 
     <section class="cta-strip wrap">
       <h2>Não sabe bem por onde começar?</h2>
-      <a class="btn btn--solid" href="/contacto.html"><span>Fala Connosco</span><span class="cta-arrow">→</span></a>
+      <a class="btn btn--solid" href="/contacto"><span>Fala Connosco</span><span class="cta-arrow">→</span></a>
     </section>
   </main>
 

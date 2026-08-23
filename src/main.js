@@ -6,7 +6,7 @@ document.querySelector('#app').innerHTML = `
   <div class="noise"></div>
   <div class="glow"></div>
 
-  ${renderNav('/index.html')}
+  ${renderNav('/')}
 
   <main class="main">
     <section class="hero wrap">
@@ -59,7 +59,7 @@ document.querySelector('#app').innerHTML = `
           </div>
         </div>
         <p style="margin-top: var(--space-xl)">
-          <a class="link-arrow" href="/servicos.html">Ver todos os serviços <span class="link-arrow__glyph">→</span></a>
+          <a class="link-arrow" href="/servicos">Ver todos os serviços <span class="link-arrow__glyph">→</span></a>
         </p>
       </div>
     </section>
@@ -71,7 +71,7 @@ document.querySelector('#app').innerHTML = `
           <span class="eyebrow">Para marcas</span>
           <h3>Campanhas de influência com direção estratégica.</h3>
           <p>Da seleção de criadores ao relatório final, cuidamos de cada etapa da parceria para que a campanha sirva os seus objetivos, não apenas o algoritmo.</p>
-          <a class="btn" href="/contacto.html"><span>Falar sobre uma campanha</span><span class="cta-arrow">→</span></a>
+          <a class="btn" href="/contacto"><span>Falar sobre uma campanha</span><span class="cta-arrow">→</span></a>
         </div>
       </div>
       <div class="split-row split-row--reverse">
@@ -79,7 +79,7 @@ document.querySelector('#app').innerHTML = `
           <span class="eyebrow">Para criadores</span>
           <h3>Um agente pessoal. Não uma agência.</h3>
           <p>Não vais ser um perfil numa lista gerida por várias pessoas. Tens um agente que te acompanha em cada decisão: negociações, contratos, oportunidades, como alguém do teu lado, não um departamento.</p>
-          <a class="btn" href="/criadores.html"><span>Candidatar-me</span><span class="cta-arrow">→</span></a>
+          <a class="btn" href="/criadores"><span>Candidatar-me</span><span class="cta-arrow">→</span></a>
         </div>
         <div class="ph ph--4-5"><span class="ph__label">Imagem</span></div>
       </div>
@@ -98,12 +98,12 @@ document.querySelector('#app').innerHTML = `
         <li>L&rsquo;Oréal Paris</li>
         <li>Superdry</li>
       </ul>
-      <a class="link-arrow" href="/marcas.html">Ver todas <span class="link-arrow__glyph">→</span></a>
+      <a class="link-arrow" href="/marcas">Ver todas <span class="link-arrow__glyph">→</span></a>
     </section>
 
     <section class="cta-strip wrap">
       <h2>Pronto para começar uma parceria?</h2>
-      <a class="btn btn--solid" href="/contacto.html"><span>Vamos conversar</span><span class="cta-arrow">→</span></a>
+      <a class="btn btn--solid" href="/contacto"><span>Vamos conversar</span><span class="cta-arrow">→</span></a>
     </section>
   </main>
 

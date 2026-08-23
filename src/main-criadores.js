@@ -14,7 +14,7 @@ document.querySelector('#app').innerHTML = `
   <div class="noise"></div>
   <div class="glow"></div>
 
-  ${renderNav('/criadores.html')}
+  ${renderNav('/criadores')}
 
   <main class="main">
     <section class="pg-hero wrap">
@@ -35,7 +35,7 @@ document.querySelector('#app').innerHTML = `
     <section class="pg-grid wrap" id="pg-grid">
       ${CATEGORIES.map(
         (c) => `
-        <a class="pg-card" data-category="${c.id}" href="/contacto.html">
+        <a class="pg-card" data-category="${c.id}" href="/contacto">
           <div class="ph ph--4-5"><span class="ph__label">Imagem</span></div>
           <h3>${c.name}</h3>
           <p>${c.desc}</p>

@@ -6,7 +6,7 @@ document.querySelector('#app').innerHTML = `
   <div class="noise"></div>
   <div class="glow"></div>
 
-  ${renderNav('/contacto.html')}
+  ${renderNav('/contacto')}
 
   <main class="main">
     <section class="ct-hero wrap">

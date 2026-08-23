@@ -233,7 +233,8 @@ h4 {
 .site-nav__mobile-close {
   position: absolute;
   top: var(--space-md);
-  right: var(--space-page-x);
+  left: 50%;
+  transform: translateX(-50%);
   background: none;
   border: 1px solid var(--color-rule);
   color: var(--color-ink);

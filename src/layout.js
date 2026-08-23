@@ -1,9 +1,9 @@
 const NAV_LINKS = [
-  { href: '/index.html', label: 'Início' },
-  { href: '/sobre.html', label: 'Sobre Nós' },
-  { href: '/criadores.html', label: 'Criadores' },
-  { href: '/servicos.html', label: 'Serviços' },
-  { href: '/marcas.html', label: 'Marcas' },
+  { href: '/', label: 'Início' },
+  { href: '/sobre', label: 'Sobre Nós' },
+  { href: '/criadores', label: 'Criadores' },
+  { href: '/servicos', label: 'Serviços' },
+  { href: '/marcas', label: 'Marcas' },
 ];
 
 function navLinksHtml(current, links = NAV_LINKS) {
@@ -18,12 +18,12 @@ function navLinksHtml(current, links = NAV_LINKS) {
 export function renderNav(current) {
   return `
     <header class="site-nav" id="site-nav">
-      <a class="site-nav__mark" href="/index.html">
+      <a class="site-nav__mark" href="/">
         <img src="/tanofeed-logo.svg" alt="" width="20" height="27" class="site-nav__mark-icon" />
         <span class="site-nav__mark-text">TANO<span>FEED</span></span>
       </a>
       <ul class="site-nav__links">${navLinksHtml(current)}</ul>
-      <a class="site-nav__cta" href="/contacto.html">Fala Connosco</a>
+      <a class="site-nav__cta" href="/contacto">Fala Connosco</a>
       <button class="site-nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
         <svg width="16" height="12" viewBox="0 0 16 12" fill="none" aria-hidden="true">
           <path d="M0 1H16M0 6H16M0 11H16" stroke="currentColor" stroke-width="1.4"/>
@@ -36,7 +36,7 @@ export function renderNav(current) {
           <path d="M1 1L15 15M15 1L1 15" stroke="currentColor" stroke-width="1.4"/>
         </svg>
       </button>
-      ${navLinksHtml(current, [...NAV_LINKS, { href: '/contacto.html', label: 'Contacto' }])}
+      ${navLinksHtml(current, [...NAV_LINKS, { href: '/contacto', label: 'Contacto' }])}
     </div>
   `;
 }
@@ -55,18 +55,18 @@ export function renderFooter() {
           <div class="site-footer__col">
             <h4>Navegação</h4>
             <ul>
-              <li><a href="/sobre.html">Sobre Nós</a></li>
-              <li><a href="/criadores.html">Criadores</a></li>
-              <li><a href="/servicos.html">Serviços</a></li>
-              <li><a href="/marcas.html">Marcas</a></li>
-              <li><a href="/contacto.html">Contacto</a></li>
+              <li><a href="/sobre">Sobre Nós</a></li>
+              <li><a href="/criadores">Criadores</a></li>
+              <li><a href="/servicos">Serviços</a></li>
+              <li><a href="/marcas">Marcas</a></li>
+              <li><a href="/contacto">Contacto</a></li>
             </ul>
           </div>
           <div class="site-footer__col">
             <h4>Contacto</h4>
             <ul>
               <li><a href="mailto:rayhan@tanofeed.com">rayhan@tanofeed.com</a></li>
-              <li><a href="/contacto.html">Falar com a equipa</a></li>
+              <li><a href="/contacto">Falar com a equipa</a></li>
             </ul>
           </div>
         </div>

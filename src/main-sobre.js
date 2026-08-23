@@ -6,7 +6,7 @@ document.querySelector('#app').innerHTML = `
   <div class="noise"></div>
   <div class="glow"></div>
 
-  ${renderNav('/sobre.html')}
+  ${renderNav('/sobre')}
 
   <main class="main">
     <section class="doc-hero wrap">
@@ -61,13 +61,13 @@ document.querySelector('#app').innerHTML = `
         <h2>Onde estamos</h2>
         <p>
           A Tanofeed está sedeada em Portugal e trabalha com marcas nacionais e internacionais. A lista de marcas com
-          quem já colaborámos está <a class="link-arrow" href="/marcas.html">na página Marcas</a>.
+          quem já colaborámos está <a class="link-arrow" href="/marcas">na página Marcas</a>.
         </p>
       </div>
 
       <div class="doc__signoff">
         <p>Quer perceber se somos a agência certa para a sua marca, ou o agente certo para si como criador?</p>
-        <a class="btn" href="/contacto.html"><span>Fala Connosco</span><span class="cta-arrow">→</span></a>
+        <a class="btn" href="/contacto"><span>Fala Connosco</span><span class="cta-arrow">→</span></a>
       </div>
     </article>
   </main>
