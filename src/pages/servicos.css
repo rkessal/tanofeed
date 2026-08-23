@@ -1,7 +1,7 @@
 /* Hallmark · macrostructure: Split Studio · theme: luxury-minimal · anchor hue: 78 */
 
 .svc-hero {
-  padding: var(--space-3xl) var(--space-xl) var(--space-xl);
+  padding: var(--space-3xl) var(--space-page-x) var(--space-xl);
 }
 
 .svc-hero h1 {

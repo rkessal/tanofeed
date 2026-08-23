@@ -1,7 +1,7 @@
 /* Hallmark · macrostructure: Catalogue · theme: luxury-minimal · anchor hue: 78 */
 
 .cat-hero {
-  padding: var(--space-3xl) var(--space-xl) var(--space-xl);
+  padding: var(--space-3xl) var(--space-page-x) var(--space-xl);
 }
 
 .cat-hero h1 {
@@ -20,7 +20,7 @@
 }
 
 .cat-grid {
-  padding: 0 var(--space-xl) var(--space-3xl);
+  padding: 0 var(--space-page-x) var(--space-3xl);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid var(--color-rule);

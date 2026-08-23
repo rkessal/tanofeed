@@ -1,7 +1,7 @@
 /* Hallmark · macrostructure: Letter (lightweight) · theme: luxury-minimal · anchor hue: 78 */
 
 .ct-hero {
-  padding: var(--space-3xl) var(--space-xl) var(--space-2xl);
+  padding: var(--space-3xl) var(--space-page-x) var(--space-2xl);
 }
 
 .ct-hero h1 {
@@ -50,7 +50,7 @@
 }
 
 .ct-direct {
-  padding: var(--space-2xl) var(--space-xl) var(--space-3xl);
+  padding: var(--space-2xl) var(--space-page-x) var(--space-3xl);
   display: flex;
   align-items: baseline;
   justify-content: space-between;

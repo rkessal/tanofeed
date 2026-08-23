@@ -48,6 +48,10 @@
   --space-3xl: 6rem;
   --space-4xl: 9rem;
 
+  /* page layout */
+  --page-max-width: 1920px;
+  --space-page-x: 20px;
+
   /* radius */
   --radius-sm: 1px;
   --radius-md: 2px;

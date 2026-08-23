@@ -18,7 +18,10 @@ function navLinksHtml(current, links = NAV_LINKS) {
 export function renderNav(current) {
   return `
     <header class="site-nav" id="site-nav">
-      <a class="site-nav__mark" href="/index.html">TANO<span>FEED</span></a>
+      <a class="site-nav__mark" href="/index.html">
+        <img src="/tanofeed-logo.svg" alt="" width="20" height="27" class="site-nav__mark-icon" />
+        <span class="site-nav__mark-text">TANO<span>FEED</span></span>
+      </a>
       <ul class="site-nav__links">${navLinksHtml(current)}</ul>
       <a class="site-nav__cta" href="/contacto.html">Fala Connosco</a>
       <button class="site-nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
@@ -43,6 +46,7 @@ export function renderFooter() {
   return `
     <footer class="site-footer">
       <div class="wrap">
+        <img src="/tanofeed-logo.svg" alt="Tanofeed" width="26" height="35" class="site-footer__mark" />
         <div class="site-footer__top">
           <div class="site-footer__brand">
             <h3>Agência de influencer marketing. Agente pessoal de cada criador.</h3>

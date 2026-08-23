@@ -1,7 +1,7 @@
 /* Hallmark · macrostructure: Long Document · theme: luxury-minimal · anchor hue: 78 */
 
 .doc-hero {
-  padding: var(--space-3xl) var(--space-xl) var(--space-2xl);
+  padding: var(--space-3xl) var(--space-page-x) var(--space-2xl);
 }
 
 .doc-hero__lede {

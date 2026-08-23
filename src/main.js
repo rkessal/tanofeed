@@ -86,10 +86,7 @@ document.querySelector('#app').innerHTML = `
     </section>
 
     <section class="brand-strip wrap">
-      <div class="brand-strip__head">
-        <span class="eyebrow">Marcas com quem trabalhámos</span>
-        <a class="link-arrow" href="/marcas.html">Ver todas <span class="link-arrow__glyph">→</span></a>
-      </div>
+      <span class="eyebrow">Marcas com quem trabalhámos</span>
       <ul class="brand-strip__list">
         <li>KFC</li>
         <li>M&amp;M&rsquo;s</li>
@@ -101,6 +98,7 @@ document.querySelector('#app').innerHTML = `
         <li>L&rsquo;Oréal Paris</li>
         <li>Superdry</li>
       </ul>
+      <a class="link-arrow" href="/marcas.html">Ver todas <span class="link-arrow__glyph">→</span></a>
     </section>
 
     <section class="cta-strip wrap">

@@ -3,19 +3,11 @@ import './pages/criadores.css';
 import { renderNav, renderFooter, mountChrome } from './layout.js';
 
 const CATEGORIES = [
-  {
-    id: 'moda',
-    name: 'Moda & Lifestyle',
-    desc: 'Criadores que moldam tendências de estilo e apresentam marcas no seu dia a dia.',
-    featured: true,
-  },
+  { id: 'moda', name: 'Moda & Lifestyle', desc: 'Criadores que moldam tendências de estilo e apresentam marcas no seu dia a dia.' },
   { id: 'beleza', name: 'Beleza', desc: 'Skincare, maquilhagem e rotinas de beleza com credibilidade junto da audiência.' },
-  { id: 'fitness', name: 'Fitness & Saúde', desc: 'Treino, nutrição e bem-estar contados por quem vive disso todos os dias.' },
-  { id: 'gaming', name: 'Gaming & Tech', desc: 'Reviews, gameplay e conteúdo tecnológico para públicos exigentes.' },
+  { id: 'fitness', name: 'Fitness', desc: 'Treino, nutrição e bem-estar contados por quem vive disso todos os dias.' },
   { id: 'viagens', name: 'Viagens', desc: 'Destinos, experiências e conteúdo de viagem com alcance nacional e internacional.' },
-  { id: 'humor', name: 'Humor & Entretenimento', desc: 'Formatos criativos e virais que aproximam marcas de audiências jovens.' },
-  { id: 'familia', name: 'Parentalidade', desc: 'Vida em família e conteúdo próximo para marcas que falam com pais e mães.' },
-  { id: 'food', name: 'Food', desc: 'Gastronomia, receitas e experiências à mesa que geram conversa real.' },
+  { id: 'humor', name: 'Humor', desc: 'Formatos criativos e virais que aproximam marcas de audiências jovens.' },
 ];
 
 document.querySelector('#app').innerHTML = `
