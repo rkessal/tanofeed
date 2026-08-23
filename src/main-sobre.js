@@ -11,7 +11,7 @@ document.querySelector('#app').innerHTML = `
   <main class="main">
     <section class="doc-hero wrap">
       <span class="eyebrow">Sobre Nós</span>
-      <p class="doc-hero__lede" style="margin-top: var(--space-lg)">
+      <p class="doc-hero__lede">
         Para uma marca, somos uma agência. Para um criador, queremos ser outra coisa.
       </p>
     </section>

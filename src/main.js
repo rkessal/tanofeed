@@ -58,7 +58,7 @@ document.querySelector('#app').innerHTML = `
             </div>
           </div>
         </div>
-        <p style="margin-top: var(--space-xl)">
+        <p class="svc-teaser-more">
           <a class="link-arrow" href="/servicos">Ver todos os serviços <span class="link-arrow__glyph">→</span></a>
         </p>
       </div>

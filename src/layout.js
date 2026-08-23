@@ -22,7 +22,9 @@ export function renderNav(current) {
         <img src="/tanofeed-logo.svg" alt="" width="20" height="27" class="site-nav__mark-icon" />
         <span class="site-nav__mark-text">TANO<span>FEED</span></span>
       </a>
-      <ul class="site-nav__links">${navLinksHtml(current)}</ul>
+      <nav aria-label="Principal">
+        <ul class="site-nav__links">${navLinksHtml(current)}</ul>
+      </nav>
       <a class="site-nav__cta" href="/contacto">Fala Connosco</a>
       <button class="site-nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
         <svg width="16" height="12" viewBox="0 0 16 12" fill="none" aria-hidden="true">
@@ -30,14 +32,14 @@ export function renderNav(current) {
         </svg>
       </button>
     </header>
-    <div class="site-nav__mobile" id="nav-mobile">
+    <nav class="site-nav__mobile" id="nav-mobile" aria-label="Móvel">
       <button class="site-nav__mobile-close" id="nav-close" aria-label="Fechar menu">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
           <path d="M1 1L15 15M15 1L1 15" stroke="currentColor" stroke-width="1.4"/>
         </svg>
       </button>
       ${navLinksHtml(current, [...NAV_LINKS, { href: '/contacto', label: 'Contacto' }])}
-    </div>
+    </nav>
   `;
 }
 
@@ -52,7 +54,7 @@ export function renderFooter() {
             <h3>Agência de influencer marketing. Agente pessoal de cada criador.</h3>
             <p>Sedeada em Portugal, a Tanofeed liga marcas a criadores de conteúdo e acompanha cada criador de perto, não como mais um nome numa lista.</p>
           </div>
-          <div class="site-footer__col">
+          <nav class="site-footer__col" aria-label="Rodapé">
             <h4>Navegação</h4>
             <ul>
               <li><a href="/sobre">Sobre Nós</a></li>
@@ -61,7 +63,7 @@ export function renderFooter() {
               <li><a href="/marcas">Marcas</a></li>
               <li><a href="/contacto">Contacto</a></li>
             </ul>
-          </div>
+          </nav>
           <div class="site-footer__col">
             <h4>Contacto</h4>
             <ul>

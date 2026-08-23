@@ -1,0 +1,18 @@
+# Tanofeed
+
+> Tanofeed é uma agência portuguesa especializada exclusivamente em influencer marketing. Liga marcas a criadores de conteúdo em Portugal, e para cada criador funciona como um agente pessoal dedicado, não como um departamento de agência tradicional.
+
+Sedeada em Portugal. A Tanofeed não presta serviços de marketing genérico (SEO, branding corporativo, gestão de ads); atua apenas na gestão de criadores, estratégia de campanhas de influência e parcerias entre marcas e criadores de conteúdo.
+
+## Páginas
+
+- [Início](https://tanofeed.com/): posicionamento da marca e visão geral dos serviços.
+- [Sobre Nós](https://tanofeed.com/sobre): filosofia da empresa e explicação do modelo "agente pessoal, não agência".
+- [Criadores](https://tanofeed.com/criadores): áreas de criadores representadas (Moda & Lifestyle, Beleza, Fitness, Viagens, Humor) e candidatura para criadores.
+- [Serviços](https://tanofeed.com/servicos): lista de serviços prestados a marcas e criadores.
+- [Marcas](https://tanofeed.com/marcas): marcas com quem a Tanofeed já trabalhou.
+- [Contacto](https://tanofeed.com/contacto): contacto para marcas e para criadores.
+
+## Contacto
+
+Email: rayhan@tanofeed.com

@@ -1,0 +1,17 @@
+{
+  "name": "Tanofeed",
+  "short_name": "Tanofeed",
+  "description": "Agência portuguesa de influencer marketing. Agente pessoal de cada criador.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f4f0",
+  "theme_color": "#173328",
+  "lang": "pt-PT",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

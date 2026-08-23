@@ -86,6 +86,10 @@
   gap: var(--space-lg);
 }
 
+.svc-teaser-more {
+  margin-top: var(--space-xl);
+}
+
 .svc-card {
   border: 1px solid var(--color-rule);
   border-radius: var(--radius-md);
