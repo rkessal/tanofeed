@@ -81,7 +81,7 @@ document.querySelector('#app').innerHTML = `
           <p>Não vais ser um perfil numa lista gerida por várias pessoas. Tens um agente que te acompanha em cada decisão: negociações, contratos, oportunidades, como alguém do teu lado, não um departamento.</p>
           <a class="btn" href="/criadores"><span>Candidatar-me</span><span class="cta-arrow">→</span></a>
         </div>
-        <div class="ph ph--4-5"><span class="ph__label">Imagem</span></div>
+        <div class="ph ph--4-5"><img src="/para-criadores.webp" alt="Ilustração de linha contínua de uma mão a segurar um telemóvel" loading="lazy" /></div>
       </div>
     </section>
 
