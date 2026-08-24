@@ -3,11 +3,41 @@ import './pages/criadores.css';
 import { renderNav, renderFooter, mountChrome } from './layout.js';
 
 const CATEGORIES = [
-  { id: 'moda', name: 'Moda & Lifestyle', desc: 'Criadores que moldam tendências de estilo e apresentam marcas no seu dia a dia.' },
-  { id: 'beleza', name: 'Beleza', desc: 'Skincare, maquilhagem e rotinas de beleza com credibilidade junto da audiência.' },
-  { id: 'fitness', name: 'Fitness', desc: 'Treino, nutrição e bem-estar contados por quem vive disso todos os dias.' },
-  { id: 'viagens', name: 'Viagens', desc: 'Destinos, experiências e conteúdo de viagem com alcance nacional e internacional.' },
-  { id: 'humor', name: 'Humor', desc: 'Formatos criativos e virais que aproximam marcas de audiências jovens.' },
+  {
+    id: 'moda',
+    name: 'Moda & Lifestyle',
+    desc: 'Criadores que moldam tendências de estilo e apresentam marcas no seu dia a dia.',
+    img: '/criador-moda-lifestyle.webp',
+    alt: 'Ilustração de linha contínua de um cabide com um vestido',
+  },
+  {
+    id: 'beleza',
+    name: 'Beleza',
+    desc: 'Skincare, maquilhagem e rotinas de beleza com credibilidade junto da audiência.',
+    img: '/criador-beleza.webp',
+    alt: 'Ilustração de linha contínua de um batom',
+  },
+  {
+    id: 'fitness',
+    name: 'Fitness',
+    desc: 'Treino, nutrição e bem-estar contados por quem vive disso todos os dias.',
+    img: '/criador-fitness.webp',
+    alt: 'Ilustração de linha contínua de um haltere',
+  },
+  {
+    id: 'viagens',
+    name: 'Viagens',
+    desc: 'Destinos, experiências e conteúdo de viagem com alcance nacional e internacional.',
+    img: '/criador-viagens.webp',
+    alt: 'Ilustração de linha contínua de um avião de papel',
+  },
+  {
+    id: 'humor',
+    name: 'Humor',
+    desc: 'Formatos criativos e virais que aproximam marcas de audiências jovens.',
+    img: '/criador-humor.webp',
+    alt: 'Ilustração de linha contínua de um balão de fala com um ícone de reprodução',
+  },
 ];
 
 document.querySelector('#app').innerHTML = `
@@ -36,7 +66,7 @@ document.querySelector('#app').innerHTML = `
       ${CATEGORIES.map(
         (c) => `
         <a class="pg-card" data-category="${c.id}" href="/contacto">
-          <div class="ph ph--4-5"><span class="ph__label">Imagem</span></div>
+          <div class="ph ph--4-5"><img src="${c.img}" alt="${c.alt}" loading="lazy" /></div>
           <h3>${c.name}</h3>
           <p>${c.desc}</p>
         </a>
