@@ -155,6 +155,11 @@
   order: 2;
 }
 
+.split-row .ph img {
+  width: 78%;
+  height: 78%;
+}
+
 .split-row__body span.eyebrow {
   margin-bottom: var(--space-md);
 }
